@@ -1,0 +1,44 @@
+body {
+    background: var(--background);
+    overflow-x: hidden;
+}
+
+.title {
+    color: var(--primary);
+}
+
+h1 {
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background: var(--primary);
+    bottom: 0;
+}
+
+footer h4 {
+    color: var(--black);
+}
+
+.cards {
+    background: var(--light);
+    width: 450px;
+    height: 65px;
+    border-radius: 15px;
+}
+
+.card {
+    display: block;
+    justify-content: space-around;
+}
+
+.avatar {
+    width: 50px;
+}
+

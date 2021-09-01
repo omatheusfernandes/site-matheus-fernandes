@@ -1,0 +1,141 @@
+/* @font-face {
+    font-family: 'poppins';
+    src: url(/assets/fonts/Poppins-Black.ttf);
+    font-style: normal;
+    font-weight: bold;
+}
+
+img {
+    pointer-events: none;
+}
+
+h1 h2 h3 p a {
+    font-family: poppins;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(/assets/fonts/Poppins-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    margin: auto;
+    overflow-x: hidden;
+    background: #191919;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #191919 ;
+}
+
+.logo-small {
+    position: relative;
+    width: 3vw;
+    margin-left: 165px;
+}
+
+.logo-big-green {
+    width: 40vw;
+}
+
+.nav-item {
+    font-weight: 500;
+    margin-right: 30px;
+}
+
+.navlink {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #f2f2f2 !important;
+}
+
+.nav-item :hover {
+    color: #3EC2C3 !important;
+    transition: 0.6s !important;
+    border-bottom: 10px;
+    text-decoration: none;
+}
+
+.jumbotron {
+    margin-top: 100px;
+    background-color: #191919 ;
+}
+
+.title {
+    font-size: 42px;
+    font-weight: bold;
+    font-family: poppins;
+    text-transform: uppercase;
+    color: #3EC2C3;
+}
+
+.subtitle {
+    font-weight: normal;
+    font-size: 32px;
+    font-family: poppins;
+    color: #FFFFFF;
+}
+
+p {
+    margin-top: 16px;
+    color: #F2F2F2;
+    font-family: poppins;
+    font-weight: normal;
+    font-size: 18px;
+    width: 80%;
+    left: 0;
+}
+
+.label {
+    color: #AFFB0B;
+    font-family: poppins;
+    font-weight: bold;
+}
+
+.portfolio-1 {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background: white;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    background: #F2F2F2;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 30px;
+    margin-left: 30px;
+}
+
+.cards:hover{
+    transition: 0.6s;
+}
+
+.container {
+    padding: 200px;
+}
+
+.card {
+    background: transparent;
+    content:url(assets/img/Frame\ 24.svg);
+    border-radius: 50px;
+}
+
+.card:hover{
+    transition: 0.6s;
+    /* box-shadow: #151818 (100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    /* box-shadow: #3EC2C3 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+} */

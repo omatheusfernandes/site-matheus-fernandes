@@ -1,0 +1,40 @@
+header .navbar {
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+}
+
+.nav-item {
+    margin-right: 100px;
+}
+
+.navlink {
+    color: var(--light) !important;
+    text-transform: uppercase;
+}
+
+.navlink:hover {
+    transition: 0.6s;
+    text-decoration: none;
+    color: var(--primary) !important;
+}
+
+.logo-small {
+    width: 3vw;
+    user-select: none;
+}
+
+h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--primary);
+}
+
+h2 {
+    font-weight: normal;
+    color: var(--light);
+}
+
+p {
+    color: var(--light);
+}
